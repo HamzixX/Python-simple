@@ -1,2 +1,3 @@
 # Python-simple
 simple python code examples
+this repo contain simple python code examples such as sum power prime numbers....
