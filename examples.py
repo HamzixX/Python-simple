@@ -15,6 +15,13 @@ def power() :
     for i in range(1,x):
         p=p*a
     print("the result is",p)
+def fact() :
+    a=int(input("give a number to calculate factorial \n"))
+    f=1
+    for i in range (1,a) :
+        f+=f*i
+    print("the  factorial is", f)
+fact()
 prime()
 power()
 
