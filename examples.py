@@ -9,11 +9,11 @@ def prime():
  else:
      print("prime number \n")
 def power() :
-    p=0
+    p=1
     a=int(input("give a number \n"))
     x=int(input("give power \n"))
     for i in range(1,x):
-        p=p+a*a
+        p=p*a
     print("the result is",p)
 prime()
 power()
