@@ -12,7 +12,9 @@ def power() :
     p=0
     a=int(input("give a number \n"))
     x=int(input("give power \n"))
-    print("the result is",a**x)
+    for i in range(1,x):
+        p=p+a*a
+    print("the result is",p)
 prime()
 power()
 
